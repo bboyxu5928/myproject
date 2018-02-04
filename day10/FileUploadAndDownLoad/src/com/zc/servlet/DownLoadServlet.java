@@ -19,7 +19,7 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 	//寰楀埌瑕佷笅杞界殑鏂囦欢鍚�
 	String fileName = req.getParameter("filename");
 	//涓婁紶鐨勬枃浠堕兘淇濆瓨鍦ㄤ簡/WEB-INF/upload鐩綍鐨勫瓙鐩綍涓�
-	//mybaby1
+	//mybaby1,hululu
 	String fileSaveRootPath = this.getServletContext().getRealPath("/WEB-INF/upload");
 	//閫氳繃鏂囦欢鍚嶆壘鍑烘枃浠剁殑鎵�鍦ㄧ洰褰�
 	String path = FileUtil.makePath(fileName, fileSaveRootPath);
