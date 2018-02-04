@@ -23,6 +23,7 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 	//hjhjhj
 	//1
 	//2
+	//9
 	String fileSaveRootPath = this.getServletContext().getRealPath("/WEB-INF/upload");
 	//閫氳繃鏂囦欢鍚嶆壘鍑烘枃浠剁殑鎵�鍦ㄧ洰褰�
 	String path = FileUtil.makePath(fileName, fileSaveRootPath);
